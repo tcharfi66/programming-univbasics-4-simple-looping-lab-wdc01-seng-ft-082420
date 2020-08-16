@@ -38,6 +38,5 @@ def return_string_array(array)
     new_arr.push(array[ctr].to_s)
     ctr++
   end
-  
   new_arr
 end
