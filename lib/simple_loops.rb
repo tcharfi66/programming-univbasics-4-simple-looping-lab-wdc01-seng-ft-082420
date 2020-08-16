@@ -20,8 +20,8 @@ end
 
 def output_array(message)
   ctr = 0
-  while ctr < array.length do 
-    puts message
+  while ctr < message.length do 
+    puts message[ctr]
     ctr+= 1
   end
 end
