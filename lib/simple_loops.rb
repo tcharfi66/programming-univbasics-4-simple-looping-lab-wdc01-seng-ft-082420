@@ -25,6 +25,7 @@ def return_string_array(arr)
   new_Arr = []
   l= arr.length()
   ctr = 0
+  
   while l > 0 
     new_Arr[ctr] = arr[ctr]
     ctr++
