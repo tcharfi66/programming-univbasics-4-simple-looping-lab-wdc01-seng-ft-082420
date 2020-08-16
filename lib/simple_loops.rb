@@ -26,7 +26,7 @@ def return_string_array(arr)
   l= arr.length()
   ctr = 0
   while l > 0 
-    new_Arr[ctr] = arr[ctr].to_s
+    new_Arr[ctr] = arr[ctr]
     ctr++
     l--
   end
