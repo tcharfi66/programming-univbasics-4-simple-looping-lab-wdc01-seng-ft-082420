@@ -13,7 +13,8 @@ end
 def loop_message_n_times(message,n)
   ctr = 0
   while ctr < n do 
-    puts messagectr+= 1
+    puts message
+    ctr+= 1
   end
 end
 
