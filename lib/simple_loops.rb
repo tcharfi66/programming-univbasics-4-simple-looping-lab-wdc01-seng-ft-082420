@@ -28,6 +28,7 @@ def return_string_array(arr)
   while l > 0 
     new_Arr[ctr] = arr[ctr].to_s
     ctr++
+    l--
   end
   
 end
